@@ -10,18 +10,12 @@
 Pod::Spec.new do |s|
   s.name             = "SilverbackViewUtilities"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SilverbackViewUtilities."
-  s.description      = <<-DESC
-                       An optional longer description of SilverbackViewUtilities
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SilverbackViewUtilities"
+  s.summary          = "UIView categories galore" 
+  s.homepage         = "https://github.com/cotkjaer/SilverbackViewUtilities"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "christian otkjær" => "christian.otkjaer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SilverbackViewUtilities.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/cotkjaer/SilverbackViewUtilities.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
