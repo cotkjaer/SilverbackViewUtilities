@@ -111,7 +111,6 @@
     }];
 }
 
-
 - (UIView *)closestSubViewOfType:(Class)type
 {
     __block UIView * view = nil;
@@ -180,5 +179,18 @@
 //    return view;
 }
 
++ (instancetype)closestSubViewForView:(UIView *)view
+{
+    id res = [view closestSubViewOfType:[self class]];
+    
+    return res;
+}
+
++ (instancetype)closestSuperViewForView:(UIView *)view
+{
+    id res = [view closestSuperViewOfType:[self class]];
+    
+    return res;
+}
 
 @end

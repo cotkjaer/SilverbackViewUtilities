@@ -24,6 +24,8 @@
 
 - (void)enumerateSubViewsUsingBlock:(void (^)(UIView * subView, NSUInteger index, BOOL *stopSubViews))block;
 
++ (instancetype)closestSuperViewForView:(UIView *)view;
 
++ (instancetype)closestSubViewForView:(UIView *)view;
 
 @end
